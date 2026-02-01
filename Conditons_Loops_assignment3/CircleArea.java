@@ -1,4 +1,4 @@
-package assignment3;
+package Conditons_Loops_assignment3;
 
 import java.util.Scanner;
 
