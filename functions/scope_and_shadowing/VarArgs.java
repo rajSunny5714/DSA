@@ -1,4 +1,4 @@
-package scope_and_shadowing;
+package functions.scope_and_shadowing;
 
 import java.util.Arrays;
 import java.util.Scanner;

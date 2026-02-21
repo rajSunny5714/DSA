@@ -1,5 +1,4 @@
-package scope_and_shadowing;
-
+package functions.scope_and_shadowing;
 
 public class Scope {
     public static void main(String[] args) {
