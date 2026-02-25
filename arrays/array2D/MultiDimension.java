@@ -2,9 +2,6 @@ package arrays.array2D;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
-// --------error--------
-
 public class MultiDimension {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -17,5 +14,9 @@ public class MultiDimension {
                 list.get(i).add(sc.nextInt());
             }
         }
+        for(int i=0; i<3; i++) {
+            System.out.println(list.get(i));
+        }
+        System.out.println(list);
     }
 }
