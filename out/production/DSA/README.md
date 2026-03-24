@@ -1,4 +1,4 @@
-# DSA
+# DSA in Java
 📘 Data Structures & Algorithms (DSA)
 
 This repository contains my **daily DSA practice**, organized topic-wise and day-wise.  
