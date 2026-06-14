@@ -1,8 +1,8 @@
-package leetcodeDSA;
+package arrays.leetcodeArray.leetcodeDSA;
 
 import java.util.Scanner;
 
-public class CheckArraySorted {
+public class ReverseArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -10,13 +10,9 @@ public class CheckArraySorted {
         for(int i=0; i<n; i++) {
             arr[i] = sc.nextInt();
         }
-        boolean isSorted = true;
-        for(int i=0; i<n-1; i++) {
-            if (arr[i] > arr[i + 1]) {
-                isSorted = false;
-                break;
-            }
+        System.out.println("Reverse of Array:");
+        for(int i=n-1; i>=0; i--){
+            System.out.print(arr[i]+" ");
         }
-        System.out.print(isSorted);
     }
 }
