@@ -14,7 +14,7 @@ public class RemoveElement_27 {
         int k = removeElement(arr, t);
         System.out.println("k = " + k);
         System.out.print("Modified Array: ");
-        for (int i=0; i<k; i++) {
+        for(int i=0; i<k; i++) {
             System.out.print(arr[i]+" ");
         }
     }
