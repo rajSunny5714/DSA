@@ -1,5 +1,10 @@
-# DSA in Java
-📘 Data Structures & Algorithms (DSA)
+# 📘 Data Structures & Algorithms (Java)
 
-This repository contains my **daily DSA practice**, organized topic-wise and day-wise.  
-I am consistently solving problems to strengthen my **problem-solving skills**, **logic**, and **coding efficiency**.
+This repository showcases my daily DSA practice in Java with well-structured, topic-wise solutions.
+
+## Highlights
+- ✅ Daily problem-solving practice
+- ✅ Topic-wise organized solutions
+- ✅ Clean and optimized Java implementations
+- ✅ Focus on time and space complexity
+- ✅ Interview preparation for product-based companies
