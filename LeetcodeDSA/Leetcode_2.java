@@ -1,4 +1,4 @@
-package Top_150_DSA;
+package LeetcodeDSA;
 class ListNode {
     int val;
     ListNode next;

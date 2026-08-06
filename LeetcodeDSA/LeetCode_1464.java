@@ -1,4 +1,4 @@
-package Top_150_DSA;
+package LeetcodeDSA;
 
 import java.util.Arrays;
 import java.util.Scanner;
