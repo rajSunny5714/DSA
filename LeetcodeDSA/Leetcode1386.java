@@ -5,18 +5,18 @@ import java.util.*;
 public class Leetcode1386 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the row: ");
-        int m = sc.nextInt();
-        int[][] arr = new int[m][2];
-        System.out.println("Enter the elements of array:");
-        for(int i=0; i<m; i++) {
-            arr[i][0] = sc.nextInt();
-            arr[i][1] = sc.nextInt();
-        }
-        System.out.print("Enter the value of n: ");
+        System.out.print("Enter the number of rows: ");
         int n = sc.nextInt();
-
-        System.out.println("Result: "+maxNumberOfFamilies(n, arr));
+        System.out.print("Enter the number of reserved seats: ");
+        int m = sc.nextInt();
+        int[][] reservedSeats = new int[m][2];
+        System.out.println("Enter the reserved seats (row seat):");
+        for(int i=0; i<m; i++) {
+            reservedSeats[i][0] = sc.nextInt();
+            reservedSeats[i][1] = sc.nextInt();
+        }
+        int res = maxNumberOfFamilies(n, reservedSeats);
+        System.out.println("Result: "+res);
     }
     public static int maxNumberOfFamilies(int n, int[][] reservedSeats) {
         Map<Integer, Set<Integer>> reserved = new HashMap<>();
