@@ -14,7 +14,14 @@ public class Leetcode27 {
         }
         System.out.print("Enter the target value: ");
         int t = sc.nextInt();
-        System.out.println("Output: "+removeElement(arr, t));
+
+        int k = removeElement(arr, t);
+        System.out.println("Output Length: " + k);
+
+        System.out.print("Array after removing target: ");
+        for(int i=0; i<k; i++) {
+            System.out.print(arr[i] + " ");
+        }
     }
     public static int removeElement(int[] nums, int val) {
         int k = 0;
