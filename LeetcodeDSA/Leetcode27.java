@@ -16,11 +16,11 @@ public class Leetcode27 {
         int t = sc.nextInt();
 
         int k = removeElement(arr, t);
-        System.out.println("Output Length: " + k);
+        System.out.println("Output Length: "+k);
 
         System.out.print("Array after removing target: ");
         for(int i=0; i<k; i++) {
-            System.out.print(arr[i] + " ");
+            System.out.print(arr[i]+" ");
         }
     }
     public static int removeElement(int[] nums, int val) {
