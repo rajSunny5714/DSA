@@ -6,7 +6,7 @@ public class Leetcode3498 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter any String:");
-        String str = sc.nextLine().toLowerCase();
+        String str = sc.nextLine(); // str contains only lowercase English letters.
         System.out.println("output: "+reverseDegree(str));
     }
     public static int reverseDegree(String s) {
