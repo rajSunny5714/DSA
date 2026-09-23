@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Leetcode8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter any number in string format: ");
+        System.out.print("Enter any number taken into string format: ");
         String str = sc.nextLine();
         System.out.println("Output: "+myAtoi(str));
     }
