@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Leetcode1614 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter any string: ");
+        System.out.println("Enter any string that hold parenthesis like this - (): ");
         String str = sc.nextLine();
         System.out.println("Output: "+maxDepth(str));
     }
