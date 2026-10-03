@@ -22,10 +22,10 @@ public class Leetcode22 {
             return;
         }
         if(open < max) {
-            backtrack(result, current + "(", open + 1, close, max);
+            backtrack(result, current + "(", open+1, close, max);
         }
         if(close < open) {
-            backtrack(result, current + ")", open, close + 1, max);
+            backtrack(result, current + ")", open, close+1, max);
         }
     }
 }
