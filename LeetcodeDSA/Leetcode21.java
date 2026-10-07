@@ -3,6 +3,8 @@ package LeetcodeDSA;
 import java.util.Scanner;
 
 public class Leetcode21 {
+
+//    ListNode Class Created
     static class ListNode {
         int val;
         ListNode next;
@@ -11,6 +13,8 @@ public class Leetcode21 {
             this.val = val;
         }
     }
+
+//    void main function
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -24,9 +28,11 @@ public class Leetcode21 {
         ListNode list2 = createList(b);
 
         ListNode result = mergeTwoLists(list1, list2);
-
+        System.out.println("Output:");
         printList(result);
     }
+
+//    ListNode createList function
     public static ListNode createList(String[] arr) {
         if (arr.length == 0 || arr[0].isEmpty())
             return null;
@@ -41,6 +47,8 @@ public class Leetcode21 {
 
         return head;
     }
+
+//    mergeTwoLists method
     public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         if(list1 == null)
             return list2;
@@ -68,6 +76,8 @@ public class Leetcode21 {
         current.next = list1 != null ? list1 : list2;
         return head;
     }
+
+//    printList method
     public static void printList(ListNode head) {
         while(head != null) {
             System.out.print(head.val);
