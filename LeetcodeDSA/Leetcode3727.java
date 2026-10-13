@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Leetcode3727 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the size of the array: ");
         int s = sc.nextInt();
         int[] arr = new int[s];
         System.out.println("Enter the elements of the array:");
