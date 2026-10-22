@@ -14,6 +14,8 @@ public class Leetcode136 {
         }
         System.out.println("Output: "+singleNumber(nums));
     }
+
+//    ----------- Solution ----------------
     public static int singleNumber(int[] nums) {
         for(int i=0; i<nums.length; i++) {
             int cnt = 0;
