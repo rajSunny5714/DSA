@@ -7,10 +7,13 @@ public class Leetcode2409 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Alice's arrival date:");
         String arriveAlice = sc.next();
+
         System.out.println("Enter Alice's leaving date:");
         String leaveAlice = sc.next();
+
         System.out.println("Enter Bob's arrival date:");
         String arriveBob = sc.next();
+
         System.out.println("Enter Bob's leaving date:");
         String leaveBob = sc.next();
 
