@@ -10,20 +10,17 @@ public class Leetcode3882 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number of rows: ");
         int m = sc.nextInt();
-
         System.out.print("Enter number of columns: ");
         int n = sc.nextInt();
 
-        int[][] grid = new int[m][n];
-
+        int[][] arr = new int[m][n];
         System.out.println("Enter grid elements:");
-
         for(int i=0; i<m; i++) {
             for(int j=0; j<n; j++) {
-                grid[i][j] = sc.nextInt();
+                arr[i][j] = sc.nextInt();
             }
         }
-        System.out.println("Minimum XOR Path: "+minCost(grid));
+        System.out.println("Minimum XOR Path: "+minCost(arr));
     }
     public static int minCost(int[][] grid) {
         int m = grid.length;
