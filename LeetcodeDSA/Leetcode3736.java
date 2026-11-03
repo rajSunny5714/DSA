@@ -13,7 +13,7 @@ public class Leetcode3736 {
         for (int i = 0; i < n; i++) {
             nums[i] = sc.nextInt();
         }
-        System.out.println("Minimum moves: "+minMoves(nums));
+        System.out.println("Minimum total moves: "+minMoves(nums));
     }
     public static int minMoves(int[] nums) {
         int mx = nums[0];
