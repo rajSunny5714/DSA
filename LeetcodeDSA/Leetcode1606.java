@@ -5,13 +5,14 @@ import java.util.*;
 public class Leetcode1606 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter number of servers (k): ");
+        System.out.print("Enter number of servers: ");
         int k = sc.nextInt();
-        System.out.print("Enter number of requests (n): ");
+        System.out.print("Enter number of requests: ");
         int n = sc.nextInt();
 
         int[] arrival = new int[n];
         int[] load = new int[n];
+
         System.out.println("Enter arrival times:");
         for(int i=0; i<n; i++) {
             arrival[i] = sc.nextInt();
