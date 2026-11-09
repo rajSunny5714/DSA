@@ -11,12 +11,12 @@ public class Leetcode1606 {
         int n = sc.nextInt();
 
         int[] arrival = new int[n];
-        int[] load = new int[n];
-
         System.out.println("Enter arrival times:");
         for(int i=0; i<n; i++) {
             arrival[i] = sc.nextInt();
         }
+
+        int[] load = new int[n];
         System.out.println("Enter load times:");
         for(int i=0; i<n; i++) {
             load[i] = sc.nextInt();
