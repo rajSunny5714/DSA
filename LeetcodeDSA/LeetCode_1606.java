@@ -2,7 +2,7 @@ package LeetcodeDSA;
 
 import java.util.*;
 
-public class Leetcode1606 {
+public class LeetCode_1606 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter number of servers: ");
